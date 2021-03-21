@@ -2,6 +2,12 @@
 
 Go to [this page](/more_content.md) for more info on this website!
 
+This is how to add a code block for python:
+
+```python
+df=pd.read_csv(filepath)
+```
+
 You can use the [editor on GitHub](https://github.com/shaikh58/shaikh58.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
