@@ -9,5 +9,3 @@ This is how to add a code block for python:
 ```python
 df=pd.read_csv(filepath)
 ```
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
