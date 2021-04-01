@@ -1,0 +1,7 @@
+This is how to add a code block for python:
+
+```python
+df=pd.read_csv(filepath)
+```
+
+To add another page to the site, just link to /xyz.md. 
