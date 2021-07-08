@@ -7,3 +7,5 @@ df=pd.read_csv(filepath)
 To add another page to the site, just link to /xyz.md. 
 
 Check out the image at ![here](/images/)
+
+Go to my [Pakistan economic indicators dashboard](https://dash-pak-stats.herokuapp.com) for some basic visualizations.
