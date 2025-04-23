@@ -137,19 +137,35 @@ span.highlight {
 .contact-links {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Space between boxes */
+  gap: 20px; /* Increased space between icons */
   margin: 20px 0;
 }
 
 .contact-link {
   text-decoration: none;
-  color: #fff; /* Text color */
-  background-color: rgba(88, 187, 229, 0.8); /* Opaque background color */
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  /* color: #1772d0; */
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 0;
+  transition: color 0.3s ease;
+  outline: none !important;
+  border: none !important;
 }
 
-.contact-link:hover {
-  background-color: rgba(0, 86, 179, 0.8); /* Hover background color */
+.contact-link:hover,
+.contact-link:focus {
+  color: #f09228;
+  background-color: transparent;
+  outline: none !important;
+  border: none !important;
+}
+
+.contact-link i {
+  font-size: 24px;
+  outline: none !important;
+}
+
+.contact-link:focus i,
+.contact-link:hover i {
+  outline: none !important;
 }
